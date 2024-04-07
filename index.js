@@ -38,4 +38,4 @@ let toCurrency = currency[userAnswer.to];
 let amount = userAnswer.amount;
 let baseCurrency = amount / fromCurrency;
 let currencyConverter = baseCurrency * toCurrency;
-console.log(chalk.bgGreenBright.bold('\t\n', currencyConverter));
+console.log(chalk.bgCyanBright.bold('\t\n Your Convert Amount Is', currencyConverter));
